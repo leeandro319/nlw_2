@@ -1,10 +1,10 @@
 import React, { useState, FormEvent } from 'react';
 import {useHistory} from 'react-router-dom';
 
-import PageHeader from '../../conponents/PageHeader';
-import Input from '../../conponents/Input';
-import Textarea from '../../conponents/TextArea';
-import Select from '../../conponents/Selected';
+import PageHeader from '../../components/PageHeader';
+import Input from '../../components/Input';
+import Textarea from '../../components/TextArea';
+import Select from '../../components/Selected';
 import api from '../../services/api';
 
 import './style.css';
