@@ -5,6 +5,9 @@ import TeacherList from './pages/TeacherList';
 import TeacherForm from './pages/TeacherForm';
 import Login from './pages/Login'
 import Register from './pages/Register';
+import RegisterOk from './pages/RegisterOk/indext';
+import PasswordOk from './pages/PasswordOk/indext';
+import ResetPassword from './pages/ResetPassword';
 
 function Routes(){
     return(
@@ -14,6 +17,9 @@ function Routes(){
             <Route path="/give-classes" component={TeacherForm} />
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
+            <Route path="/register-ok" component={RegisterOk} />
+            <Route path="/resetpassword" component={ResetPassword} />
+            <Route path="/password-ok" component={PasswordOk} />
         </BrowserRouter>
     )
 }

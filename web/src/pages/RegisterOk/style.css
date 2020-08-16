@@ -1,0 +1,46 @@
+.page-register-ok{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary-light);
+}
+
+.page-register-ok img{
+    position: absolute;
+    pointer-events: none;
+}
+
+.page-register-ok h1{
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--color-button-text);
+    margin-bottom: 5rem;
+}
+
+.page-register-ok p{
+    color: var(--color-button-text);
+}
+
+.page-register-ok a{
+    width: 15%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 5rem;
+}
