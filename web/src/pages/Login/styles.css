@@ -1,0 +1,120 @@
+.page-login-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-in-primary);
+    background: var(--color-primary);
+}
+
+.page-login-left .bg-login{
+    position: absolute;
+}
+
+.page-login-left h2{
+    width: 300px;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+
+}
+
+.page-login-right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-in-primary);
+    background: var(--color-background);
+}
+
+.page-login-right .right-content h1{
+    margin: 1rem 0 20% 0 ;
+    color: var(--color-primary-darker);
+}
+
+.page-login-right .right-content{
+    width: 50%;
+}
+
+.page-login-right .right-content .info_password{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.remember {
+    margin-top: 2rem;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+  }
+
+.page-login-right .right-content .info_password .remember input[type="checkbox"]{
+    margin-top: 1rem;
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: black;
+  }
+
+.page-login-right .right-content .info_password span {
+    color: var(--color-text-base);
+    font-size: 1.4rem;
+  }
+
+  .page-login-right .right-content .info_password .remember label {
+    color: var(--color-text-base);
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }  
+
+.page-login-right .right-content button{
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+.page-login-right .right-content button:hover{
+    background: var(--color-secundary-dark);
+}
+
+.page-login-right .right-content button:focus{
+    border: none;
+}
+
+
+.page-login-right .footer-right{
+    margin-top: 14%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-text-base);
+    font-size: 1.4rem;
+
+}
+
+.page-login-right .footer-right .acc_add{
+    display: flex;
+    flex-direction: column;
+}
+
+
